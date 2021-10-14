@@ -10,6 +10,10 @@
     clear: both;
 }
 
+.float {
+    float: left;
+}
+
 .container {
     width: 80%;
     margin: 20px auto;
@@ -35,6 +39,30 @@ main {
     width: 100%;
     margin: 0 0 10px;
 }
+
+main > div {
+    background-color: #ABCFE7;
+}
+
+.main-header {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-left, .col-right {
+    width: 20%;
+    height: calc(100% - 100px);
+}
+
+.main-content {
+    height: calc(100% - 100px);
+    width: calc(60% - 20px * 2);
+    margin: 0 20px;
+}
+
+
+
 
 footer {
     background-color: #8802F7;
