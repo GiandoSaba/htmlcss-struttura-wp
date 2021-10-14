@@ -10,3 +10,15 @@
     clear: both;
 }
 
+.container {
+    background-color: black;
+    width: 85%;
+    margin: 20px auto;
+    
+}
+
+header {
+    background-color: #E479E6;
+    height: 100px;
+    width: 100%;
+}
