@@ -11,8 +11,7 @@
 }
 
 .container {
-    background-color: black;
-    width: 85%;
+    width: 80%;
     margin: 20px auto;
     
 }
@@ -20,5 +19,25 @@
 header {
     background-color: #E479E6;
     height: 100px;
+    width: 100%;
+}
+
+.jumbo {
+    background-color: #E1D67A;
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+main {
+    background-color: #379BF6;
+    height: 500px;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+footer {
+    background-color: #8802F7;
+    height: 50px;
     width: 100%;
 }
