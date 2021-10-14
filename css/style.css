@@ -1,3 +1,5 @@
+/* setting base */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,15 +19,16 @@
 .container {
     width: 80%;
     margin: 20px auto;
-    
 }
 
+/* header */
 header {
     background-color: #E479E6;
     height: 100px;
     width: 100%;
 }
 
+/* jumbo */
 .jumbo {
     background-color: #E1D67A;
     height: 400px;
@@ -33,6 +36,7 @@ header {
     margin: 20px 0;
 }
 
+/* main */
 main {
     background-color: #379BF6;
     height: 500px;
@@ -60,10 +64,9 @@ main > div {
     width: calc(60% - 20px * 2);
     margin: 0 20px;
 }
+/* /main */
 
-
-
-
+/* footer */
 footer {
     background-color: #8802F7;
     height: 50px;
